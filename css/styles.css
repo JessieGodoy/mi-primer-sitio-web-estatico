@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font-family: "Poppins", sans-serif; */
+
+body {
+    font-family: "Poppins", sans-serif;
+
+}
+
+/* estilos del header */
+
+header {
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    align-items: center;
+    /* padding-bottom: 20px 0px; */
+    padding: 20px 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.196);
+    background-color: #0F1035;
+}
+
+header a img {
+    width: 12.5rem;
+}
+
+.navbar {
+    display: flex;
+    gap: 1.25rem;
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+
+/* a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: #0F1035;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+}
+
+.navbar ul li a{
+    padding: 14px 16px;
+    color: white;
+}
+
+header img {
+    width: 18.75rem;
+    height: fit-content;
+}
+ */
+
+/* / cierre estilos del header */
+
+/* estilos del main */
+
+.title {
+    background-color: #227B94;
+    text-align: center;
+    font-size: 3.125rem;
+}
+
+/* index */
+
+.background-1 {
+    background-color: #227B94;
+}
+
+.background-2 {
+    background-color: #DCF2F1;
+}
+
+.background-3 {
+    background-color: #227B94;
+}
+
+.sub-title1 {
+    text-align: center;
+}
+
+/* /index */
+
+/* botones */
+
+button {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-color: steelblue;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+/* /botones */
+
+/* clientes */
+.title-blog {
+    font-size: 30px;
+    text-align: center;
+}
+.blog {
+    background-color: #DCF2F1;
+}
+
+/* /clientes */
+
+/* servicios */
+.form-service {
+    padding-bottom: 1.875rem;
+}
+
+/* /servicios */
+
+/* formularios */
+.form {
+    background-color: #C4D7E0;
+}
+/* /formularios */
+
+/* suscribite */
+.form-suscribe {
+    background-color: #227B94;
+}
+
+.form-suscribe h2 {
+    text-align: center;
+}
+
+.form-suscribe span {
+    display: block;
+}
+.form-suscribe .email {
+    display: block;
+}
+
+.form-suscribe .password {
+    display: block;
+}
+
+.form-suscribe div {
+    display: inline;
+}
+/* /suscribite */
+
+
+/* /cierre estilos del main */
+
+/* estilos del footer */
+
+footer {
+    background-color: #0F1035;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 12.5rem;
+}
+
+/* /cierre estilos del footer */
